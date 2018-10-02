@@ -12,7 +12,7 @@ class Player {
 	private String name;
 	private String prenom;
 	private int point;
-	private Main hand; 
+	private Main hand;	
 
 	/**
 	 * 
@@ -20,7 +20,6 @@ class Player {
 	public Player() {
 		
 	}
-	
 	
 	/**
 	 * @param name
