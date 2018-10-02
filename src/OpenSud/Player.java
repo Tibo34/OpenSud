@@ -12,7 +12,7 @@ class Player {
 	private String name;
 	private String prenom;
 	private int point;
-	private Main hand;	
+	private Main hand=Main.right;	
 
 	/**
 	 * 
@@ -23,17 +23,17 @@ class Player {
 	
 	/**
 	 * @param name
+	 * @param prenom
 	 * @param point
 	 * @param hand
 	 */
 	public Player(String name, String prenom, int point, Main hand) {
 		super();
 		this.name = name;
+		this.prenom = prenom;
 		this.point = point;
 		this.hand = hand;
 	}
-	
-		
 
 
 	/**
